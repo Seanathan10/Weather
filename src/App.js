@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
+
 import './App.css';
+
+
+import Sunny from './Climates/Sunny/Sunny.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Sunny></Sunny>
+
+      <div className='TemperatureBox'>109°</div>
+      {/* <div className='UnitsButtonBox'>
+        <button className='UnitButton' onClick={ () => alert() }>°F</button>
+      </div> */}
+
+
+
+    </React.Fragment>
+
   );
 }
 
