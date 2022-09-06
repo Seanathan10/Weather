@@ -61,6 +61,6 @@
 }
 
 .UnitsButtonBox:hover {
-  transition: border 0.5s;
+  transition: 2s;
   border: 5px solid red;
 }

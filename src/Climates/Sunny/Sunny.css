@@ -8,7 +8,8 @@
     overflow: hidden;
   
     background: linear-gradient( 135deg, rgb(62, 62, 229) 50%, rgb(166, 179, 255) 50% );
-    backdrop-filter: blur( 100px );
+    /* backdrop-filter: blur( 100px ); */
+
     /* background: linear-gradient( 135deg, rgb( 97, 97, 235 ), rgb( 166, 179, 255 ), rgb( 97, 97, 235 ), rgb( 166, 179, 255 ) ); */
 
     /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
@@ -21,37 +22,7 @@
 }
 
 @keyframes gradient {
-    12% {
-        background-position: 0%, 25%;
-    }
 
-    25% {
-        background-position: 25%, 50%;
-    }
-
-    37% {
-        background-position: 50%, 75%;
-    }
-
-    50% {
-       background-position: 75%, 100%; 
-    }
-
-    62% {
-        background-position: 100%, 75%;
-    }
-
-    75% {
-        background-position: 75%, 50%;
-    }
-
-    87% {
-        background-position: 50%, 25%;
-    }
-
-    100% {
-        background-position: 25%, 0%;
-    }
 }
 
 .BackgroundArt {
@@ -70,7 +41,6 @@
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 0px 0px 25px 10px rgb( 248, 248, 94 );
   
-
-
 }
+
 
