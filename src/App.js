@@ -11,9 +11,9 @@ function App() {
       <Sunny></Sunny>
 
       <div className='TemperatureBox'>109°</div>
-      {/* <div className='UnitsButtonBox'>
+      <div className='UnitsButtonBox'>
         <button className='UnitButton' onClick={ () => alert() }>°F</button>
-      </div> */}
+      </div>
 
 
 

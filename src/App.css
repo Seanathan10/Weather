@@ -59,3 +59,8 @@
   border: none;
   color: white;
 }
+
+.UnitsButtonBox:hover {
+  transition: border 0.5s;
+  border: 5px solid red;
+}
